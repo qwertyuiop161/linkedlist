@@ -1,3 +1,4 @@
+package linkedlist;
 import static java.lang.System.out;
 public class EmployeeList {
     private EmployeeNode head;
