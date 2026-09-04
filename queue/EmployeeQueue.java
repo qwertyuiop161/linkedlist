@@ -16,14 +16,14 @@ public class EmployeeQueue {
             temp = temp.getNext();
         }
     }
-    public void getFirst() {
-        out.println("First: " + first.getEmployee());
+    public Employee getFirst() {
+        return first.getEmployee();
     }
-    public void getLast() {
-        out.println("Last: " + last.getEmployee());
+    public Employee getLast() {
+        return last.getEmployee();
     }
-    public void getLegnth() {
-        out.println(length);
+    public int getLength() {
+        return length;
     }
     public void enqueue(Employee employee) {
         EmployeeNode empNode = new EmployeeNode(employee);
